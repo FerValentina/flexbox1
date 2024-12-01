@@ -7,8 +7,15 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .box{
-    display: flex;
-    width: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 7px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f4eeee;
+    margin: 2em;
+    padding: 2em;
+   
+
 }
 .contactos{
     display: flex;
@@ -38,7 +45,8 @@ body{
 .caja{
     align-content: center;
     text-align: center;
-    background-color: rgb(238, 236, 236);
-    padding: 2em;
-    margin: 2em;
+    background-color: rgb(208, 206, 206);
+    padding: 7em;
+    /* margin: 2em; */
+    width: 100vh;
 }
