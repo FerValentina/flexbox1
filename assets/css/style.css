@@ -6,6 +6,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.box{
+    display: flex;
+    width: 100%;
+}
 .contactos{
     display: flex;
     justify-content: start;
@@ -30,4 +34,11 @@ body{
 .nombres{
     /* padding-bottom: 1.5em; */
     margin-bottom: 3em;
+}
+.caja{
+    align-content: center;
+    text-align: center;
+    background-color: rgb(238, 236, 236);
+    padding: 2em;
+    margin: 2em;
 }
