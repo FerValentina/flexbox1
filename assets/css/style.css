@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    height: 80vh;
+    height: 90vh;
     margin: 2em auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -36,6 +36,8 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .img {
@@ -60,7 +62,9 @@ body {
 }
 
 .new-chat {
-    padding: 10px;
+    padding: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
     background-color: #A491D2;
     color: #fff;
     border: none;
@@ -68,6 +72,7 @@ body {
     cursor: pointer;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 .lista {
@@ -76,6 +81,8 @@ body {
     margin: 0;
     overflow-y: auto;
     flex-grow: 1;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
 }
 
 .contact-item {
