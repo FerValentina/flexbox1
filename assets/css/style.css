@@ -23,6 +23,7 @@ body{
     gap: 0px;
     padding: 2em;
     margin: 2em;
+    
        
 }
 .lista{
@@ -30,6 +31,7 @@ body{
     margin: 5px;
     padding-bottom: 1em;
     list-style-type: none; 
+    
 }
 .img{
     border-radius: 50%;
