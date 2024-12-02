@@ -12,6 +12,7 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     height: 80vh;
     margin: 2em auto;
@@ -60,7 +61,7 @@ body {
 
 .new-chat {
     padding: 10px;
-    background-color: #9370db;
+    background-color: #A491D2;
     color: #fff;
     border: none;
     border-radius: 5px;
